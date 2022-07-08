@@ -1,0 +1,34 @@
+.logo {
+    width: 300px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+.logoContainer {
+    background-color:#83C676;
+}
+
+.menuContainer {
+    display: flex;
+    background-color: #1A1A1A;
+    padding-top: 30px;
+}
+.menu {
+    margin:0 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu:hover {
+    opacity: 0.85;
+}
+.menu.selected_menu {
+    background-color: #83C676;
+}
+.menu.unselected_menu {
+    background-color: #858585;
+}
